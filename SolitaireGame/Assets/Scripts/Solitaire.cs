@@ -187,6 +187,7 @@ public class Solitaire : MonoBehaviour
     }
     void RestackToTopDeck()
     {
+        deck.Clear();
         foreach(string card in discardPie)
         {
             deck.Add(card);

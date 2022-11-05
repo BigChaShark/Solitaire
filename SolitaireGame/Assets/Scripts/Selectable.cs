@@ -69,7 +69,7 @@ public class Selectable : MonoBehaviour
             {
                 value = 12;
             }
-            if (valueString == "k")
+            if (valueString == "K")
             {
                 value = 13;
             }
