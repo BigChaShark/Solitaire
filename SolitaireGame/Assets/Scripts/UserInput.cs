@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class UserInput : MonoBehaviour
 {
+    public GameObject slot1;
     private Solitaire solitaire;
     // Start is called before the first frame update
     void Start()
     {
         solitaire = FindObjectOfType<Solitaire>();
+        slot1 = gameObject;
     }
 
     // Update is called once per frame
@@ -30,7 +32,8 @@ public class UserInput : MonoBehaviour
                 }
                 if (hit.collider.CompareTag("Card"))
                 {
-                    Card();
+
+                    Card(hit.collider.gameObject);
                 }
                 if (hit.collider.CompareTag("Top"))
                 {
@@ -47,9 +50,24 @@ public class UserInput : MonoBehaviour
     {
         solitaire.DealFromDeck();
     }
-    void Card()
+    void Card(GameObject selected)
     {
+        if (slot1 == gameObject)
+        {
+            slot1 = selected;
+        }
+        
+        else if (slot1 != selected)
+        {
+            if (Stackable(selected))
+            {
 
+            }
+            else
+            {
+                slot1 = selected;
+            }
+        }
     }
     void Top()
     {
@@ -58,5 +76,52 @@ public class UserInput : MonoBehaviour
     void Bottom()
     {
 
+    }
+
+    bool Stackable(GameObject selected)
+    {
+        Selectable s1 = slot1.GetComponent<Selectable>();
+        Selectable s2 = selected.GetComponent<Selectable>();
+       if (s2.top)
+        {
+            if(s1.suit == s2.suit || (s1.value == 1 && s2.suit == null))
+            { 
+                if (s1.value == s2.value + 1) 
+                {
+                    return true;
+                } 
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            if (s1.value == s2.value - 1)
+            {
+                bool card1Rad = true;
+                bool card2Rad = true;
+                if  (s1.suit == "C" || s1.suit == "S")
+                {
+                    card1Rad = false; 
+                }
+                if  (s2.suit == "C" || s2.suit == "S")
+                {
+                    card2Rad = false;
+                }
+                if(card1Rad == card2Rad)
+                {
+                    print(" Not Stackable!!! ");
+                        return false;
+                }
+                else
+                {
+                    print("Stackable");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
