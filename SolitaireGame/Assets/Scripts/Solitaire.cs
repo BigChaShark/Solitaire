@@ -171,7 +171,7 @@ public class Solitaire : MonoBehaviour
         if (deckLocation < trip)
         {
             tripOnDisplay.Clear();
-            float xoffSet = 2.5f;
+            float xoffSet = 2.0f;
             float zOffset = -0.2f;
             foreach (string card in deckTrips[deckLocation])
             {
