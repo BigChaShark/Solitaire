@@ -344,7 +344,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2068582317}
         m_TargetAssemblyTypeName: Uibotton, Assembly-CSharp
-        m_MethodName: ResetScene
+        m_MethodName: Playagain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -889,29 +889,29 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a148d0e9b2f70524cbc585aae511b8ba, type: 3}
   - {fileID: 21300000, guid: b053a4a6042791d4da7b0f2bc57bf9db, type: 3}
   - {fileID: 21300000, guid: 4f2c39c24ff2ffd44932778dc1aa73ac, type: 3}
-  - {fileID: 21300000, guid: e4ed76e7fa9088c46a48e47ec43dbd3f, type: 3}
-  - {fileID: 21300000, guid: cb3593f3043f24642b75ffa074f8b779, type: 3}
-  - {fileID: 21300000, guid: 48bc2d3374b6a35468cb6811ae789317, type: 3}
-  - {fileID: 21300000, guid: 191a8902972c68945b263c181917ca8a, type: 3}
-  - {fileID: 21300000, guid: fa62022905c6c7e46b4c084dc1813397, type: 3}
-  - {fileID: 21300000, guid: 189b956a750b8bb409baf4537ccfc621, type: 3}
-  - {fileID: 21300000, guid: 5ba95a9513ac4554987ec0e94c409f85, type: 3}
-  - {fileID: 21300000, guid: 76cea08d11a2eaf4f930249a3494ef95, type: 3}
-  - {fileID: 21300000, guid: 13d7ed9bb58d8724d87d1cec5b5b562b, type: 3}
-  - {fileID: 21300000, guid: 0a80a2e4b3003064890c51e9c42f86bc, type: 3}
+  - {fileID: 21300000, guid: 89d1def5e90ff8140a199a306e66a637, type: 3}
+  - {fileID: 21300000, guid: da0ca3a3fd8f900458b427d73902bb47, type: 3}
+  - {fileID: 21300000, guid: 5711d92ac02e99943b500372b4adcab0, type: 3}
+  - {fileID: 21300000, guid: 0d2148d4007dd0d4582e9d6f86edb827, type: 3}
+  - {fileID: 21300000, guid: ddc84bd4f8f9b384cbbe00b6b65bd0d9, type: 3}
+  - {fileID: 21300000, guid: e359140f0dd10cf41b3bb68a1c71210c, type: 3}
+  - {fileID: 21300000, guid: d5efc45d3921c844fbb99844246562f0, type: 3}
+  - {fileID: 21300000, guid: 0db7ed2f99193de48b9acaa72f06b566, type: 3}
+  - {fileID: 21300000, guid: b517a36b2c111bf409d2501eeba36d7b, type: 3}
+  - {fileID: 21300000, guid: 0f5c12bcd6591d2469ab9161764ea219, type: 3}
   - {fileID: 21300000, guid: 25d51c05caacc7c45924b1b335ee5787, type: 3}
   - {fileID: 21300000, guid: 93436f7f465f5f243ba2064fedc65d53, type: 3}
   - {fileID: 21300000, guid: 6b793daa4a442ac4e882bcd516013c26, type: 3}
-  - {fileID: 21300000, guid: d42c256885cc6e34e9012fe167b9d0f3, type: 3}
-  - {fileID: 21300000, guid: b3a1f9683236ab5489737e3589933c58, type: 3}
-  - {fileID: 21300000, guid: 31435a0a4b3cf734b879c617b798ddf8, type: 3}
-  - {fileID: 21300000, guid: ab01b39087d4e6943ad21818995c8c54, type: 3}
-  - {fileID: 21300000, guid: ad1daa1f38f17524d9ec08e7ee3415f4, type: 3}
-  - {fileID: 21300000, guid: 67dbb7ff3937e194fa8fa1e6f45fe864, type: 3}
-  - {fileID: 21300000, guid: 3f99e47ca8ad93b468aebb603e71b226, type: 3}
-  - {fileID: 21300000, guid: cd43010d700265f44af548e7b1e8ae46, type: 3}
-  - {fileID: 21300000, guid: 54e77bca1e111d540835bbedaf7c7a89, type: 3}
-  - {fileID: 21300000, guid: ae49b26d609100041b05b87fc013e0b5, type: 3}
+  - {fileID: 21300000, guid: 5643eac533f6d254f9328cf40c8349a3, type: 3}
+  - {fileID: 21300000, guid: 9c4552b36597a734396d16024cf52c94, type: 3}
+  - {fileID: 21300000, guid: 86c23f27af715db47960bfb912a06ae8, type: 3}
+  - {fileID: 21300000, guid: 867551afc5b766a4ca7c3245e4970419, type: 3}
+  - {fileID: 21300000, guid: c8190b68fe7527f47b2d0b0ccf87db28, type: 3}
+  - {fileID: 21300000, guid: bc809f579fd79324097528bee6100eae, type: 3}
+  - {fileID: 21300000, guid: f2c3d5d4ee2a3e641bed281756d5dbff, type: 3}
+  - {fileID: 21300000, guid: b1d430369fe5de34e93fc36eeeb47f07, type: 3}
+  - {fileID: 21300000, guid: 6290d26061c3bc1408144bacd49d2a66, type: 3}
+  - {fileID: 21300000, guid: e1a02b132593ca24bacd4fb09aaa620f, type: 3}
   - {fileID: 21300000, guid: db55b5e407e7d9e4fbff7d211e5ba12b, type: 3}
   - {fileID: 21300000, guid: e1a8d2a565b9fe44faf234f16fa0c16a, type: 3}
   - {fileID: 21300000, guid: 8d47983fb6ec5ce47ad59764e11c5ade, type: 3}
@@ -1658,10 +1658,10 @@ RectTransform:
   m_Father: {fileID: 2068582321}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -427, y: -270}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 159.15765, y: 85.25345}
+  m_SizeDelta: {x: 218.3152, y: 56.5068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1275135149
 MonoBehaviour:
@@ -3170,7 +3170,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.3067536
+  orthographic size: 6.964791
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

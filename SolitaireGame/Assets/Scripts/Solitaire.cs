@@ -56,6 +56,7 @@ public class Solitaire : MonoBehaviour
         Shuffle(deck);
         CardSort();
         StartCoroutine(MakeCard());
+        
         SortDeckIntoTrips();
     }
     //Make IEnumerator vvv
@@ -76,7 +77,7 @@ public class Solitaire : MonoBehaviour
                     newCard.GetComponent<Selectable>().faceUp = true;
                 }
                 
-                yOffset += 0.5f;
+                yOffset += 0.3f;
                 zOffset += 0.3f;
                 discardPie.Add(card);
             }

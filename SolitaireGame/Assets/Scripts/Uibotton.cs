@@ -18,8 +18,8 @@ public class Uibotton : MonoBehaviour
     }
     public void Playagain()
     {
-        highScorePanel.SetActive(false);
-        ResetScene();
+       ResetScene();
+       highScorePanel.SetActive(false);
     }
     public void ResetScene()
     {
